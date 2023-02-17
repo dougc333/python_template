@@ -20,7 +20,7 @@ async def search(value:str):
     return search_wiki(value)
 
 @app.get("/wiki/{value}")
-async def wiki(value:str):
+async def get_wiki(value:str):
     """ wiki"""
     return wiki(value)
 
