@@ -15,14 +15,18 @@ jobs:
     - name: Install dependencies
       run: | 
         make install
-    - name: Lint 
+    - name: Lint with Pylint
       run: |
         make lint
-    - name: test
+    - name: test with pytest
       run: | 
         make test
-    - name: format
+    - name: Format code
       run: | 
         make format
+    - name: Build Container
+      run: |
+        make build
+    
         
     
