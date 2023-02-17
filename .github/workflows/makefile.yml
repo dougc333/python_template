@@ -23,6 +23,6 @@ jobs:
         make test
     - name: format
       run: | 
-        #make format
+        make format
         
     
