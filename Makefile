@@ -6,13 +6,13 @@ install:
 	pip install --upgrade pip && pip install -r requirements.txt
 format:
 	#format
-	black *.py mylib/*.py
+	black *.py lib/*.py
 lint:
 	#lint
-	pylint --disable=R,C *.py mylib/*.py
+	pylint --disable=R,C *.py lib/*.py
 test:
 	#test
-	python -m pytest -vv --cov=mylib --cov=test
+	python -m pytest -vv --cov=lib --cov=test
 build:
 	#build
 	docker build -t deploy-fastapi .
