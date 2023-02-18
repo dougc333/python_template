@@ -8,3 +8,4 @@ fastapi==0.92.0
 uvicorn==0.20.0
 textblob==0.17.1
 httpx
+python==3.8.9
