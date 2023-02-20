@@ -9,10 +9,10 @@ format:
 	black *.py lib/*.py
 lint:
 	#lint
-	pylint --disable=R,C *.py lib/*.py
+	pylint --disable=R,C *.py mylib/*.py
 test:
 	#test
-	python -m pytest -vv --cov=lib --cov=test
+	python -m pytest -vv --cov=mylib --cov=test
 build:
 	#build
 	docker build -t deploy-fastapi .
