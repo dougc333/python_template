@@ -1,0 +1,37 @@
+Directory structure
+
+compiled:
+  npm puts the bundle of transipled React compoents and libraries for a 
+  SPA here
+dist: 
+  main.js unknown what this is if still used
+mylib:
+  python API, test with command line. There should be an api which you can run regression on data. With an output to get coefficients, API on the data
+node_modules:
+  created by npm, do not modify
+src:
+  react components here, for front end
+test:
+  test programs 
+
+
+Ideally the python API code is under mylib and the FE is under src
+
+package.json : created with npm init -y then appeneded when we install packages for development. ONly for REact and JS runtime. 
+package-lock.json : versions 
+
+requirements.txt: python packages, we have to manuually create this, add packages as we pip install package_name then use pip freeze to get the version numbers and copy and paste these into requirements.txt. 
+
+webpack.config.js: the bundler file for the xx.bundle.js file. Which plugins to use and any rules, where the files to be bundled go into a single js file are located. 
+
+Dockerfile: 
+docker-compose.yml:  
+
+Makefile: insructions for build for both python backend and JS FE code. 
+README.md: usually created by react toolings. Cant be sure it gets written over. 
+buildspec.yml: for github CI. 
+
+cli-fire.py: test Python API.
+
+
+

@@ -1,5 +1,5 @@
 
-.PHONY: test src
+.PHONY: test src mylib 
 
 install:
 	#install
