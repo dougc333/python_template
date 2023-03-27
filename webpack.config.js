@@ -2,9 +2,9 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    main: './src/index.js',
     index1:'./src/index1.js',
     index2: './src/index2.js',
+    index3: './src/index3.js',
   },
   plugins: [
     new webpack.DefinePlugin({
