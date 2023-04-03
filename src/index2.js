@@ -6,5 +6,5 @@ const root = ReactDOM.createRoot(document.getElementById("index2"))
 
 
 root.render(
-  <Header></Header>
+  <Header />
 )
