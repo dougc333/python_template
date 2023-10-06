@@ -1,4 +1,4 @@
-# fast API microservices python_template 
+#  microservices python_template 
 lib->mylib. .gitignore prevents use of lib
 there is probably some old legacy reason for this, i.e. downloading sw used to install in lib like old java programs. 
 so they put lib in .gitignore. 
@@ -31,5 +31,8 @@ number of requests per second without db, with database insert into mongodb, dyn
 
 
 backend: 
-python flight server for pandas df
+python server for pandas df
+
+React WebServer as proxy 
+Python API 
 
